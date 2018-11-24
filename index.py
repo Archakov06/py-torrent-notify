@@ -16,13 +16,12 @@ def getTorrents():
 
 
 def sendMessage():
-    URL = 'https://api.telegram.org/bot641890462:AAHVCRRQAOMhmZh2e74XZFK5l1eDGlT0fVU/sendMessage'
+    URL = 'https://api.telegram.org/botXXX:XXX/sendMessage'
     DATA = {
         "chat_id": 129070250,
         "text": "Hello"
     }
-
-    r = requests.post(url=URL, data=DATA)
+    requests.post(url=URL, data=DATA)
 
 
 sendMessage()
